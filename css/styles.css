@@ -1,0 +1,212 @@
+body{
+  background-color:#FFFAF0;
+}
+nav {
+  width: 80%;
+  height: 50px; /* only for demonstration, should be removed */
+  margin-left:150px;
+
+}
+
+nav img{
+  float: left;
+  width: 5%;
+  height: 50px;
+  }
+nav ul{
+  float:left;
+  background-color: #333333;
+  width:57%;
+  list-style-type: none;
+  height:50px;
+  margin: 0;
+  /*overflow:hidden; dans le cas ou le contenu de ul dépasse les limites de ul on utilise overflow: hidden pour couper l'exces*/
+}
+nav ul li{
+  float: left;
+}
+nav ul li a {
+  display: block;
+  width:100px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  height:30px;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+#auth{
+  float:right;
+  background-color: #333333;
+  width:30%;
+  margin-right:5px;
+  list-style-type: none;
+  height:50px;
+  /*overflow:hidden; dans le cas ou le contenu de ul dépasse les limites de ul on utilise overflow: hidden pour couper l'exces*/
+}
+
+
+section{
+  margin-left: 100px;
+  margin-top:50px;
+  margin-bottom: 50px;;
+  height:200px;
+  overflow:hidden;  
+}
+section img{
+  width:30%;
+  height:200px;
+  text-align:center;
+  margin:auto;
+  display:flex;
+}
+
+
+
+#content{
+  float:left;
+  margin-left: 100px;
+  margin-bottom:100px;
+  width:40%;
+  height:auto;
+}
+
+#news{
+  float:left;
+  width:40%;
+  margin-left:30px;
+  height:auto;
+}
+/* ------------------- footer ----------------*/
+footer{
+  background-color:#111111;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;;
+  width: 100%;
+  color: #fff;
+  display: flex;
+}
+
+
+
+/*----------- footer   -------------------*/
+
+.products > h1 {
+  margin: 10px;
+  padding: 5px;
+  color:black;
+}
+
+.product {
+  background: white;
+  margin:20px;
+  padding:10px;
+  border: 1px dotted black;
+  width:70%;
+}
+
+.product > h3, p {
+  font-size: 100%;
+}
+
+.product h3{
+  color:gold;
+}
+
+.newsE{
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin:5px;
+}
+
+.newsE h3{
+  color:crimson;
+}
+
+#contactusform{
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+}
+
+#contactusform fieldset{
+  padding:0 20px 10px 20px;
+  margin-bottom:10px;
+  border:1px groove grey;
+  width:360px;
+}
+
+#contactusform legend{
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+#contactusform label{
+  margin-left:10px;
+}
+
+#contactusform textarea {
+  resize: none;
+  height:200px;
+}
+
+#contactusform input, #contactusform textarea, #contactusform select{
+  padding:3px;
+  border:1px solid #A3B0AF;
+  background-image:linear-gradient(white,);
+  background: -moz-linear-gradient(top,
+      white 4%, 
+      #F2F2F2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, 
+      color-stop(4%,white), 
+      color-stop(100%,#F2F2F2)); /* Chrome,Safari4+ */
+  
+  background: -webkit-linear-gradient(top, 
+      white 4%,
+      #F2F2F2 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, 
+    white 4%, 
+      #F2F2F2 100%); /* Opera 11.10+ */
+  width:200px;
+  float:right;
+  margin-right:10px;
+}
+
+#contactusform input[type=button],#contactusform input[type=reset],#contactusform input[type=submit]{
+  float:none;
+  width:70px;
+  height:30px;
+  color:white;
+  margin-top:10px;
+  margin-bottom:20px;
+  padding-top:0px;
+  background: -moz-linear-gradient(top,
+      #A5A1A0 4%, 
+      #4B4746 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, 
+      color-stop(4%,#A5A1A0), 
+      color-stop(100%,#4B4746)); /* Chrome,Safari4+ */
+  
+  background: -webkit-linear-gradient(top, 
+      #A5A1A0 4%,
+      #4B4746 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, 
+    #A5A1A0 4%, 
+      #4B4746 100%); /* Opera 11.10+ */
+  
+}
+
+#contactusform input[type=reset]{
+  margin-left:120px;
+}
